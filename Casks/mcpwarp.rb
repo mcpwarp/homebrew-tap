@@ -6,25 +6,25 @@ cask "mcpwarp" do
     end
   end
 
-  version "0.2.4"
+  version "0.2.5"
 
   on_macos do
     on_arm do
-      sha256 "b52a28827c700defcac35b243ae849416d1ce39005de3948fcc33a6623fb2bbb"
+      sha256 "d2335d12812853ffce059ef553a300e362878944ea72d8b08f2ebd1c3eeb49b0"
       url "https://github.com/mcpwarp/cli/releases/download/v#{version}/mcpwarp_#{version}_darwin_arm64.tar.gz"
     end
     on_intel do
-      sha256 "4fef924d0392673db75e1d15df009152696244403fe603c0e3f49e80b1853780"
+      sha256 "47f4a85e18244e65ac001db546e121cc93c7cababd512d3680b6db947806084d"
       url "https://github.com/mcpwarp/cli/releases/download/v#{version}/mcpwarp_#{version}_darwin_amd64.tar.gz"
     end
   end
   on_linux do
     on_arm do
-      sha256 "9537c720fcea8a6846f82f1321cca47e20bf2d4749080e331d28c01c2ca958ad"
+      sha256 "09e585ba5a7094bae5aaec6cf602c0d294d864e7bee34cdb0d7d848846ad605f"
       url "https://github.com/mcpwarp/cli/releases/download/v#{version}/mcpwarp_#{version}_linux_arm64.tar.gz"
     end
     on_intel do
-      sha256 "7bc57d84fb31eb8150da4f405812990dc0028b8657848e879e6823fd823baed9"
+      sha256 "0118ddd1246ce15945b97e3fa96d0708d7ec46ea6f593171b572c5f5cf94ecc5"
       url "https://github.com/mcpwarp/cli/releases/download/v#{version}/mcpwarp_#{version}_linux_amd64.tar.gz"
     end
   end
